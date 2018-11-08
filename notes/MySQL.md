@@ -29,12 +29,12 @@ insert into table_name values(value1, value2, value3, ...)
 - 修改
 
 ```
-update table_name set
+update table_name set column = ?(value)
 ```
 
 - 删除
 ```
-delete table where condition
+delete from table where condition
 ```
 
 
